@@ -15,5 +15,13 @@
 }
 
 .answer {
-  @apply text-xl md:text-5xl font-semibold text-yellow-500 mb-4 md:mb-8;
+  @apply text-xl md:text-5xl font-semibold text-yellow-500 mb-4 md:mb-8 transition;
+}
+
+.answerValid {
+  @apply text-green-500;
+}
+
+.answerInvalid {
+  @apply text-red-500 line-through;
 }

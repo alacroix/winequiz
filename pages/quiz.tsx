@@ -27,9 +27,7 @@ const Quiz = () => {
     if (count + 1 < questions.length) {
       setCount(count + 1);
     } else {
-      setTimeout(() => {
-        setIsOver(true);
-      }, 1500);
+      setIsOver(true);
     }
   };
 
