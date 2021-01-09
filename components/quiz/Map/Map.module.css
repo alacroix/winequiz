@@ -5,3 +5,8 @@
 .dynamic {
   @apply absolute inset-0;
 }
+
+.selected:focus {
+  stroke: rgb(245, 158, 11);
+  stroke-width: 4;
+}
