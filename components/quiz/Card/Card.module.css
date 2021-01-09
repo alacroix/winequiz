@@ -1,0 +1,19 @@
+.root {
+  @apply flex md:flex-col items-center;
+}
+
+.avatar {
+  @apply rounded-full inline object-cover w-12 h-12 md:w-32 md:h-32;
+}
+
+.content {
+  @apply ml-2 md:ml-0 flex flex-col;
+}
+
+.title {
+  @apply md:text-4xl font-semibold text-gray-800;
+}
+
+.description {
+  @apply text-sm text-gray-800 md:text-center;
+}

@@ -1,0 +1,19 @@
+.root {
+  @apply flex flex-col items-center;
+}
+
+.intro {
+  @apply md:text-3xl md:font-semibold text-gray-800;
+}
+
+.card {
+  @apply mt-2 mb-2 md:mt-8 md:mb-8;
+}
+
+.answerLabel {
+  @apply md:text-2xl md:font-semibold text-gray-800 md:mt-8;
+}
+
+.answer {
+  @apply text-xl md:text-5xl font-semibold text-yellow-500 mb-4 md:mb-8;
+}

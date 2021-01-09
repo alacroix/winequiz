@@ -1,0 +1,7 @@
+.root {
+  @apply relative;
+}
+
+.dynamic {
+  @apply absolute inset-0;
+}
