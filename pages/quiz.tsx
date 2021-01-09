@@ -48,7 +48,7 @@ const Quiz = () => {
           <div className="text-center">
             Question {count + 1} / {questions.length}
           </div>
-          <div className="flex flex-col justify-around md:flex-row h-full p-2 md:p-16">
+          <div className="flex flex-col justify-around md:flex-row flex-1 p-2 md:p-16">
             <Map className="md:w-1/2 md:order-2" onLocationClick={setAnswer} />
             <Question
               className="md:w-1/2"
