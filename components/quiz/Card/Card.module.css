@@ -2,8 +2,12 @@
   @apply flex md:flex-col items-center;
 }
 
+.avatarBox {
+  @apply relative w-12 h-12 md:w-32 md:h-32;
+}
+
 .avatar {
-  @apply rounded-full inline object-cover w-12 h-12 md:w-32 md:h-32;
+  @apply rounded-full;
 }
 
 .content {
