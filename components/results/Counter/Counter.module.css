@@ -1,0 +1,11 @@
+.root {
+  @apply text-center;
+}
+
+.value {
+  @apply text-4xl font-semibold text-gray-800;
+}
+
+.suffix {
+  @apply text-2xl font-semibold text-gray-800;
+}

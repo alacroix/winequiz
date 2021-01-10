@@ -1,19 +1,23 @@
 import { useEffect, useState } from "react";
-
 import Map from "@components/quiz/Map";
 import Question from "@components/quiz/Question";
-import generateQuestions from '@utils/generateQuestions';
+import ResultsView from "@components/results/ResultsView";
+import generateQuestions from "@utils/generateQuestions";
 
 const Quiz = () => {
-  const [answer, setAnswer] = useState(null);
+  const [answer, setAnswer] = useState("");
   const [answers, setAnswers] = useState([]);
   const [questions, setQuestions] = useState([]);
   const [count, setCount] = useState(0);
   const [isOver, setIsOver] = useState(false);
 
   useEffect(() => {
-    setQuestions(generateQuestions(10));
-  }, []);
+    if (!isOver) {
+      setQuestions(generateQuestions(10));
+      setCount(0);
+      setAnswers([]);
+    }
+  }, [isOver]);
 
   const handleSubmit = () => {
     setAnswers([
@@ -23,7 +27,7 @@ const Quiz = () => {
         answer,
       },
     ]);
-    setAnswer(null);
+    setAnswer("");
     if (count + 1 < questions.length) {
       setCount(count + 1);
     } else {
@@ -31,16 +35,16 @@ const Quiz = () => {
     }
   };
 
+  const handleReplay = () => {
+    setIsOver(false);
+  };
+
   if (questions.length === 0) {
-    return(
-      <div className="h-screen flex flex-col md:p-8">
-        loading...
-      </div>
-    )
+    return <div className="h-screen flex flex-col md:p-8">loading...</div>;
   }
 
   return (
-    <div className="h-screen flex flex-col md:p-8">
+    <div className="h-screen flex flex-col p-2 md:p-8">
       {!isOver ? (
         <>
           <div className="text-center">
@@ -57,16 +61,7 @@ const Quiz = () => {
           </div>
         </>
       ) : (
-        <div>
-          result:
-          <div>
-            {answers.map(({ question, answer }) => (
-              <span>
-                {question.name}-{question.region} {answer.id}
-              </span>
-            ))}
-          </div>
-        </div>
+        <ResultsView answers={answers} onReplayClick={handleReplay} />
       )}
     </div>
   );

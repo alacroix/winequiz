@@ -1,0 +1,15 @@
+.root {
+  @apply h-screen;
+}
+
+.scoreLabel {
+  @apply text-base text-gray-800 font-semibold underline text-center;
+}
+
+.list {
+  @apply flex-1 overflow-y-scroll my-4;
+}
+
+.button {
+  @apply text-center;
+}

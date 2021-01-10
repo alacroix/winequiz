@@ -1,18 +1,18 @@
 import cn from "classnames";
 import { useEffect, useRef, useState } from "react";
 import Reward from "react-rewards";
-import s from "./Question.module.css";
-
-import Card from "../Card";
+import regions from "@assets/constants/regions.json";
 import Button from "@components/ui/Button";
+import Card from "../Card";
+import s from "./Question.module.css";
 
 const Question = ({ className, answer, question, onSubmit }) => {
   const reward = useRef(null);
   const [hasSubmitted, setHasSubmitted] = useState(false);
 
-  const hasAnswered = !!answer;
+  const hasAnswered = answer !== "";
 
-  const isValid = answer && answer.id === question.region;
+  const isValid = hasAnswered && answer === question.region;
 
   useEffect(() => {
     setHasSubmitted(false);
@@ -47,7 +47,7 @@ const Question = ({ className, answer, question, onSubmit }) => {
           [s.answerInvalid]: hasSubmitted && !isValid,
         })}
       >
-        {!hasAnswered ? "-" : answer.name}
+        {!hasAnswered ? "-" : regions[answer].name}
       </p>
       <Reward config={{ lifetime: 100 }} ref={reward} type="confetti">
         <Button disabled={!hasAnswered} onClick={checkAnswer}>

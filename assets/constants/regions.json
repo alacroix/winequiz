@@ -1,0 +1,50 @@
+{
+  "alsace": {
+    "id": "alsace",
+    "name": "Alsace"
+  },
+  "bordeaux": {
+    "id": "bordeaux",
+    "name": "Bordeaux"
+  },
+  "bourgogne": {
+    "id": "bourgogne",
+    "name": "Bourgogne"
+  },
+  "champagne": {
+    "id": "champagne",
+    "name": "Champagne"
+  },
+  "corse": {
+    "id": "corse",
+    "name": "Corse"
+  },
+  "jura": {
+    "id": "jura",
+    "name": "Jura"
+  },
+  "languedoc": {
+    "id": "languedoc",
+    "name": "Languedoc-Roussillon"
+  },
+  "loire": {
+    "id": "loire",
+    "name": "Vallée de la Loire"
+  },
+  "provence": {
+    "id": "provence",
+    "name": "Provence"
+  },
+  "rhone": {
+    "id": "rhone",
+    "name": "Vallée du Rhône"
+  },
+  "savoie": {
+    "id": "savoie",
+    "name": "Savoie"
+  },
+  "sud-ouest": {
+    "id": "sud-ouest",
+    "name": "Sud-Ouest"
+  }
+}

@@ -1,6 +1,5 @@
 import cn from "classnames";
 import { SVGMap } from "react-svg-map";
-import "react-svg-map/lib/index.css";
 import s from "./Map.module.css";
 import Content from "./content.json";
 
@@ -58,10 +57,7 @@ const Map = ({ className, onLocationClick }) => {
         map={Content}
         locationClassName={mapLocationToClassname}
         onLocationClick={(e) =>
-          onLocationClick({
-            id: e.target.id,
-            name: e.target.getAttribute("name"),
-          })
+          onLocationClick(e.target.id)
         }
       />
     </div>

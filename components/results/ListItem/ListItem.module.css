@@ -1,0 +1,35 @@
+.root {
+  @apply flex items-center shadow bg-white rounded p-2 md:p-4;
+}
+
+.content {
+  @apply ml-2 md:ml-0 flex flex-1 flex-col;
+}
+
+.title {
+  @apply text-xs md:text-base font-semibold text-gray-800;
+}
+
+.description {
+  @apply text-xs md:text-base text-gray-800;
+}
+
+.answerBlock {
+  @apply flex flex-col items-center;
+}
+
+.answer {
+  @apply text-xs md:text-base font-semibold;
+}
+
+.answerValid {
+  @apply text-green-500;
+}
+
+.answerInvalid {
+  @apply text-red-500 line-through;
+}
+
+.correctAnswer {
+  @apply text-xs md:text-base text-gray-400 font-semibold;
+}
