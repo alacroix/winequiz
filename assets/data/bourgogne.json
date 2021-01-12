@@ -28,5 +28,40 @@
     "name": "Aubert de Villaine",
     "estate": "Domaine de la Romanée-Conti",
     "picture": "https://media.lesechos.com/api/v1/images/view/5ee8d9193e45463d096247e5/1280x720/2313049-aubert-de-villaine-musique-et-vin-procurent-le-meme-type-demotion-web-tete-0602378381149.jpg"
+  },
+  {
+    "name": "Valentin Montanet",
+    "estate": "Domaine Cadettes",
+    "picture": "https://www.vezelay2019.fr/wp-content/uploads/2018/04/Valentin-Montanet-S%C3%A9curit%C3%A9-0671640026-300.jpg"
+  },
+  {
+    "name": "Philippe Valette",
+    "estate": "Maison Valette",
+    "picture": "https://www.vinibee.com/wp-content/uploads/2017/03/vinibee-vins-bio-biodynamiques-et-naturels-domaine-philippe-valette-portraitvigneron3-e1490902385887.jpeg"
+  },
+  {
+    "name": "Alain Gras",
+    "estate": "Domaine Alain Gras",
+    "picture": "https://www.domaine-alain-gras.com/images/index.jpg"
+  },
+  {
+    "name": "David Croix",
+    "estate": "Domaine des croix",
+    "picture": "https://www.lepoint.fr/images/2013/09/09/david-croix-1894135-jpg_1706802_1250x625.JPG"
+  },
+  {
+    "name": "Bret Brother",
+    "estate": "Domaine la Soufrandière",
+    "picture": "https://vigneronsdexception.com/img/cms/Bret%20Brothers/article%20RVF%20mars%202017-bret-brothers.jpg"
+  },
+  {
+    "name": "Jean Fournier",
+    "estate": "Domaine Fournier",
+    "picture": "https://www.vin-bio-ardoneo.com/Files/131934/Img/05/fournier.png"
+  },
+  {
+    "name": "Thomas Picot",
+    "estate": "Domaine Pattes Loups",
+    "picture": "https://www.vinscheznous.com/img/m/353.jpg"
   }
 ]
