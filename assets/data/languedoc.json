@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Famille Guibert",
+    "estate": "Mas Daumas Gassac",
+    "picture": "https://cache.larvf.com/data/photo/w1000_ci/5n/mas-daumas-gassac1.jpg"
+  },
+  {
+    "name": "Olivier Julien",
+    "estate": "Mas Julien",
+    "picture": "https://blog.midi-vin.com/wp-content/uploads/2011/03/olivier-jullien-vignes-languedoc.jpg"
+  },
+  {
+    "name": "Laurent Vaillé",
+    "estate": "Grange des Pères",
+    "picture": "https://www.vpoint.fr/imgfr/vigneron/g-p.jpg"
+  },
+  {
+    "name": "Cyril Fhal",
+    "estate": "Clos Rouge Gorge",
+    "picture": "https://boutique.lotel-du-vin.com/644-9584-thickbox/clos-du-rouge-gorge-ubac-2015.jpg"
+  },
+  {
+    "name": "Gérard Gauby",
+    "estate": "Domaine Gauby",
+    "picture": "https://www.laroutedesblancs.com/c/69-category_default/domaine-gauby.jpg"
+  },
+  {
+    "name": "Catherine Bernard",
+    "estate": "Domaine Catherine Bernard",
+    "picture": "https://buveurdevin.com/wp-content/uploads/2018/03/IMG_0990.jpg"
+  },
+  {
+    "name": "Frédéric Pourtalié",
+    "estate": "Domaine de Montcalmès",
+    "picture": "https://terredevigne.com/wp-content/uploads/2013/04/Domaine_Montcalmes.jpg"
+  }
+]

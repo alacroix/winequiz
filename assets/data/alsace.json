@@ -18,5 +18,30 @@
     "name": "Famille Trimbach",
     "estate": "Maison Trimbach",
     "picture": "https://www.alsace-vintage.com/media/wysiwyg/Domaines/FamilleTrimbach.png"
+  },
+  {
+    "name": "Ghislain Moritz Angela Prado",
+    "estate": "Domaine Moritz Prado",
+    "picture": "https://vinul.ro/wp-content/uploads/2012/06/DSC0309.jpg"
+  },
+  {
+    "name": "Olivier Humbrecht",
+    "estate": "Domaine Humbrecht",
+    "picture": "https://www.vins-humbrecht.com/wp-content/uploads/2018/02/cropped-DSC_0646-4.jpg"
+  },
+  {
+    "name": "Marc Kreydenweiss",
+    "estate": "Domaine Kreydenweiss",
+    "picture": "https://www.sjakes.com/wp-content/uploads/2010/01/kreydenweiss.jpg"
+  },
+  {
+    "name": "Jean-Christophe Bott",
+    "estate": "Domaine Bottgeyl",
+    "picture": "https://i.pinimg.com/originals/d9/57/df/d957dfdb3575563b87a2fe32ef916bf3.jpg"
+  },
+  {
+    "name": "Marie-Geneviève & Norbert Molozay",
+    "estate": "Château de Vaux ",
+    "picture": "https://www.larueduvin.com/img/m/4.jpg"
   }
 ]
