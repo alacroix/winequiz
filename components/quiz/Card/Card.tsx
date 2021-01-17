@@ -5,13 +5,15 @@ import s from "./Card.module.css";
 const Card = ({ className, imageUrl, title, description }) => (
   <div className={cn(s.root, className)}>
     <div className={s.avatarBox}>
-      <Image
-        className={s.avatar}
-        src={`/api/image/${imageUrl.replace(/https?:\/\//, "")}`}
-        alt={title}
-        objectFit="cover"
-        layout="fill"
-      />
+      {imageUrl && (
+        <Image
+          className={s.avatar}
+          src={`/api/image/${imageUrl.replace(/https?:\/\//, "")}`}
+          alt={title}
+          objectFit="cover"
+          layout="fill"
+        />
+      )}
     </div>
     <div className={s.content}>
       <span className={s.title}>{title}</span>
