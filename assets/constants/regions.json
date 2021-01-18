@@ -3,6 +3,10 @@
     "id": "alsace",
     "name": "Alsace"
   },
+  "beaujolais": {
+    "id": "beaujolais",
+    "name": "Beaujolais"
+  },
   "bordeaux": {
     "id": "bordeaux",
     "name": "Bordeaux"

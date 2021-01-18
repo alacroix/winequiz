@@ -9,6 +9,9 @@ const mapLocationToClassname = (location) => {
     case "alsace":
       colors = "text-red-500 hover:text-red-400";
       break;
+    case "beaujolais":
+      colors = "text-purple-700 hover:text-purple-600";
+      break;
     case "bordeaux":
       colors = "text-pink-700 hover:text-pink-600";
       break;
