@@ -149,7 +149,7 @@
     "picture": "https://www.vinbourgueil.com/wp-content/uploads/2019/03/Domaine-Marchesseau.jpg"
   },
   {
-    "name": "Mathieu & Florent Corsme",
+    "name": "Mathieu & Florent Cosme",
     "estate": "Domaine Cosme",
     "picture": "https://www.domaine-mathieu-cosme.com/wp-content/uploads/2017/04/Fabien-Brutou-Mathieu-Cosme-Vignerons-01-1104x680.jpg"
   },
@@ -205,5 +205,10 @@
     "name": "Carine & Stéphane Sérol",
     "estate": "Domaine Sérol",
     "picture": "https://www.lesgrappes.com/media/winemaker_tmp/10536/carine_et_stephane_serol.jpg"
+  },
+  {
+    "name": "Maxime Gillier et Famille logel",
+    "estate": "Domaine Verdie Logel",
+    "picture": "https://static.apidae-tourisme.com/filestore/objets-touristiques/images/185/116/7238841-diaporama.jpg"
   }
 ]
